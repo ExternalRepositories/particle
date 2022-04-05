@@ -47,7 +47,7 @@ jobs:
       run: python -m pytest ./tests --doctest-modules --cov=src/particle --cov-report=xml
 
     - name: Test coverage with Codecov
-      uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v3
 
   notebooks:
     runs-on: ubuntu-latest
