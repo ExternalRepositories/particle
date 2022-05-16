@@ -77,7 +77,7 @@ jobs:
       with:
         fetch-depth: 0
 
-    - uses: excitedleigh/setup-nox@v2.0.0
+    - uses: excitedleigh/setup-nox@v2.1.0
 
     - name: Make ZipApp
       run: nox -s zipapp
